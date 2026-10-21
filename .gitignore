@@ -1,0 +1,6 @@
+/build/
+/outputs/
+/tools/traceevent-2.0.75/
+/tools/*.nupkg
+*.user
+*.pdb

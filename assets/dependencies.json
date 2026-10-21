@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    {
+      "file": "Dia2Lib.dll",
+      "sha256": "6C4CAC68010FE032218EFE5E9FCF46EEF9F77BFAA5F3BD33F03C5FF77D5A8FAC",
+      "assembly": "2.0.0.0",
+      "signer": "CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    },
+    {
+      "file": "Microsoft.Diagnostics.FastSerialization.dll",
+      "sha256": "834AE0365EC008C4E87693E8B86262B02526CD554D2804A022F0496BB7848431",
+      "assembly": "1.0.0.0",
+      "signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    },
+    {
+      "file": "Microsoft.Diagnostics.Tracing.TraceEvent.dll",
+      "sha256": "6CB8EDA71E73BC6C4BEC8AD1B4EB430F5E34BF5F16CCD870A3E1092D2459602C",
+      "assembly": "2.0.75",
+      "signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    },
+    {
+      "file": "OSExtensions.dll",
+      "sha256": "8CEE77653448156D7FDF2CE8371CA830F3208321C77FE3E224ED58ADAAC406DA",
+      "assembly": "1.0.0.0",
+      "signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    },
+    {
+      "file": "System.Runtime.CompilerServices.Unsafe.dll",
+      "sha256": "A79E1C30E9308AFE4D680F0BFB82DE3E8C1FE94AECA453EC4092C3ED4789AE6B",
+      "assembly": "4.6.26919.02",
+      "signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    },
+    {
+      "file": "TraceReloggerLib.dll",
+      "sha256": "6830C0F1D3F3C17719181E73DD5CFA8CCBB3F3C575329D2120576545103467B5",
+      "assembly": "0.0.0.0",
+      "signer": "CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    }
+  ],
+  "format": 1
+}
