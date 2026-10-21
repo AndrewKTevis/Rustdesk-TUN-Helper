@@ -6,6 +6,7 @@ $exe = Join-Path $dist 'Rustdesk Clash-TUN Helper.exe'
 if (!(Test-Path -LiteralPath $exe -PathType Leaf)) { throw 'Missing EXE; run test.ps1 first' }
 $version = [Diagnostics.FileVersionInfo]::GetVersionInfo($exe).ProductVersion
 if ($version -notmatch '^\d+\.\d+\.\d+(?:-[a-z0-9.]+)?$') { throw 'Invalid product version' }
+Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 Add-Type -AssemblyName Microsoft.VisualBasic
 function Recycle-Archive([string]$path) {
